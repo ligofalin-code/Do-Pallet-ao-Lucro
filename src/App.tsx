@@ -228,7 +228,7 @@ export default function App() {
           className="max-w-4xl relative z-10"
         >
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold leading-snug tracking-tight mb-6 text-wood">
-            Descubra como transformar pallets baratos <span className="text-profit">(ou até grátis)</span> em móveis que você pode vender por até <span className="text-profit">R$500</span> mesmo sem experiência.
+            Descubra como transformar pallets baratos <span className="text-profit">(ou até grátis)</span> em móveis que você pode vender por mais de <span className="text-profit">R$500</span> mesmo sem experiência.
           </h1>
           
           <p className="text-sm md:text-base text-wood/80 mb-6 max-w-2xl mx-auto leading-relaxed font-medium">
