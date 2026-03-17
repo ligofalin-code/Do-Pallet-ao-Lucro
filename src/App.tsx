@@ -118,11 +118,11 @@ const TestimonialCarousel = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   
   const images = [
-    "/image/depoimento 01.webp",
-    "/image/depoimento 02.webp",
-    "/image/depoimento 03.webp",
-    "/image/depoimento 04.webp",
-    "/image/depoimento 05.webp"
+    "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788475/depoimento_01_aotdtv.webp",
+    "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788475/depoimento_02_tahws6.webp",
+    "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788475/depoimento_03_pwsxq8.webp",
+    "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788475/depoimento_04_gqiywq.webp",
+    "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788475/depoimento_05_hsa5ab.webp"
   ];
 
   const next = () => {
@@ -244,7 +244,7 @@ export default function App() {
             <div className="absolute -inset-4 bg-wood/5 blur-2xl rounded-[3rem] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/image/Imagem de capa.webp" 
+                src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788480/Imagem_de_capa_tbf3rn.webp" 
                 alt="Móveis de Pallet" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -307,12 +307,12 @@ export default function App() {
           <div className="flex flex-col gap-4">
             <div className="grid grid-cols-2 gap-4">
               {[
-                { name: "Rack para TV", img: "/image/Imagem rack tv.webp" },
-                { name: "Bancos", img: "/image/Imagem bancos.webp" },
-                { name: "Mesa de Pallet", img: "/image/Imagem mesa.webp" },
-                { name: "Prateleira", img: "/image/Imagem prateleira.webp" },
-                { name: "Sofás", img: "/image/imagem sofas.webp" },
-                { name: "Mesa de Centro", img: "/image/Imagem mesa de centro.webp" }
+                { name: "Rack para TV", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788488/Imagem_rack_tv_r5aqss.webp" },
+                { name: "Bancos", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788476/Imagem_bancos_jnxzux.webp" },
+                { name: "Mesa de Pallet", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788483/Imagem_mesa_qbl4fe.webp" },
+                { name: "Prateleira", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788484/Imagem_prateleira_gmwf67.webp" },
+                { name: "Sofás", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788489/imagem_sofas_fkazfk.webp" },
+                { name: "Mesa de Centro", img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788483/Imagem_mesa_de_centro_krojhx.webp" }
               ].map((item, i) => (
                 <motion.div 
                   key={i}
@@ -360,7 +360,7 @@ export default function App() {
         </div>
         
         <div className="mt-8 flex justify-center">
-          <img src="/image/imagem 5 imagens.webp" alt="Trabalhos com Pallets" className="rounded-xl shadow-lg w-full max-w-4xl" referrerPolicy="no-referrer" />
+          <img src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788476/imagem_5_imagens_os5abf.webp" alt="Trabalhos com Pallets" className="rounded-xl shadow-lg w-full max-w-4xl" referrerPolicy="no-referrer" />
         </div>
       </Section>
 
@@ -376,17 +376,17 @@ export default function App() {
             {
               title: "Bônus 01: Como atrair clientes",
               desc: "Aprenda usar o Marketplace, chamar atenção com boas fotos e atrair clientes para o WhatsApp.",
-              img: "/image/Imagem bonus 01.webp"
+              img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788478/Imagem_bonus_01_u5y066.webp"
             },
             {
               title: "Bônus 02: Pallets de Graça",
               desc: "Revelamos os melhores comércios que disponibilizam pallets de graça para você começar sem custo.",
-              img: "/image/Imagem bonus 02.webp"
+              img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788479/Imagem_bonus_02_ukyulj.webp"
             },
             {
               title: "Bônus 03: 165 projetos de móveis",
               desc: "Para você nunca mais ficar sem ideias na hora de produzir.",
-              img: "/image/Imagem bonus 03.webp"
+              img: "https://res.cloudinary.com/dyqfspsap/image/upload/v1773788479/Imagem_bonus_03_ymh77n.webp"
             }
           ].map((bonus, i) => (
             <motion.div 
@@ -432,7 +432,7 @@ export default function App() {
           >
             <div className="absolute inset-0 bg-gold/20 blur-[100px] rounded-full -z-10" />
             <img 
-              src="/image/imagem apostila física.webp" 
+              src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788476/imagem_apostila_f%C3%ADsica_wqn3ez.webp" 
               alt="Apostila Física Mockup" 
               className="max-w-xs md:max-w-md w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] border-4 border-white rounded-2xl" 
               referrerPolicy="no-referrer" 
@@ -479,7 +479,7 @@ export default function App() {
         <div className="max-w-xl mx-auto bg-white rounded-[2rem] shadow-xl border border-earth/10 overflow-hidden">
           <div className="p-8 pb-4 flex flex-col items-center">
             <img 
-              src="/image/Imagem mockup.webp" 
+              src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788483/Imagem_mockup_apf9ks.webp" 
               alt="Mockup Curso" 
               className="w-full max-w-[280px] drop-shadow-xl" 
               referrerPolicy="no-referrer" 
@@ -565,7 +565,7 @@ export default function App() {
       {/* Guarantee */}
       <Section className="text-center">
         <div className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-[3rem] shadow-xl border border-wood/5">
-          <img src="/image/SELO GARANTIA IMAGEM.webp" alt="Garantia 7 Dias" className="w-48 h-48 mx-auto mb-6" referrerPolicy="no-referrer" />
+          <img src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788489/SELO_GARANTIA_IMAGEM_pekub3.webp" alt="Garantia 7 Dias" className="w-48 h-48 mx-auto mb-6" referrerPolicy="no-referrer" />
           <h2 className="text-xl md:text-3xl font-bold mb-4">GARANTIA DE 7 DIAS</h2>
           <p className="text-base text-wood/70 leading-relaxed">
             Se por qualquer motivo o nosso material não atender suas expectativas, nós devolvemos todo o seu dinheiro dentro do prazo de 7 dias. Sem perguntas, sem burocracia.
