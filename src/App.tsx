@@ -494,10 +494,11 @@ export default function App() {
             <ul className="grid grid-cols-1 gap-3 mb-8">
               {[
                 "Curso em Vídeo Aulas",
-                "Apostila Digital Completa",
-                "165 Projetos de Móveis",
-                "Bônus: Como atrair clientes",
-                "Acesso Vitalício"
+                "Apostila Do Pallet ao Lucro",
+                "Bônus 01: Como atrair clientes",
+                "Bônus 02: Como conseguir pallets de graça",
+                "Bônus 03: 165 projetos de móveis",
+                "Acesso VITALÍCIO"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-2 text-sm text-wood/80 font-medium">
                   <CheckCircle2 className="text-profit w-4 h-4 shrink-0" />
