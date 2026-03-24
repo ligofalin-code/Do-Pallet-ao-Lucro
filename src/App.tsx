@@ -517,9 +517,11 @@ export default function App() {
               </div>
             </div>
 
-            <Button variant="secondary" className="w-full py-4 text-sm md:text-base font-black shadow-2xl shadow-profit/40">
-              QUERO COMEÇAR AGORA
-            </Button>
+            <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full">
+              <Button variant="secondary" className="w-full py-4 text-sm md:text-base font-black shadow-2xl shadow-profit/40">
+                QUERO COMEÇAR AGORA
+              </Button>
+            </a>
             
             <Timer />
 
@@ -561,9 +563,14 @@ export default function App() {
             </div>
           ))}
         </div>
+        <div className="mt-8 flex justify-center">
+          <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full max-w-sm">
+            <Button variant="secondary" className="w-full py-4 text-base font-black shadow-xl shadow-profit/20">
+              COMPRAR AGORA
+            </Button>
+          </a>
+        </div>
       </Section>
-
-      {/* Guarantee */}
       <Section className="text-center">
         <div className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-[3rem] shadow-xl border border-wood/5">
           <img src="https://res.cloudinary.com/dyqfspsap/image/upload/v1773788489/SELO_GARANTIA_IMAGEM_pekub3.webp" alt="Garantia 7 Dias" className="w-48 h-48 mx-auto mb-6" referrerPolicy="no-referrer" />
@@ -602,6 +609,13 @@ export default function App() {
             question="Vou ter acesso por quanto tempo?" 
             answer="O acesso é vitalício. Você compra uma vez e pode acessar para sempre, sem mensalidades." 
           />
+        </div>
+        <div className="mt-8 flex justify-center">
+          <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full max-w-sm">
+            <Button variant="secondary" className="w-full py-4 text-base font-black shadow-xl shadow-profit/20">
+              COMPRAR AGORA
+            </Button>
+          </a>
         </div>
       </Section>
 
