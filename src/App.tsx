@@ -519,7 +519,7 @@ export default function App() {
 
             <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full">
               <Button variant="secondary" className="w-full py-4 text-sm md:text-base font-black shadow-2xl shadow-profit/40">
-                QUERO COMEÇAR AGORA
+                QUERO COMPRAR AGORA
               </Button>
             </a>
             
@@ -566,7 +566,7 @@ export default function App() {
         <div className="mt-8 flex justify-center">
           <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full max-w-sm">
             <Button variant="secondary" className="w-full py-4 text-base font-black shadow-xl shadow-profit/20">
-              COMPRAR AGORA
+              QUERO COMPRAR AGORA
             </Button>
           </a>
         </div>
@@ -613,7 +613,7 @@ export default function App() {
         <div className="mt-8 flex justify-center">
           <a href="https://pay.lowify.com.br/checkout?product_id=0fLlRa" className="w-full max-w-sm">
             <Button variant="secondary" className="w-full py-4 text-base font-black shadow-xl shadow-profit/20">
-              COMPRAR AGORA
+              QUERO COMPRAR AGORA
             </Button>
           </a>
         </div>
