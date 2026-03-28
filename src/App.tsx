@@ -258,7 +258,7 @@ export default function App() {
               <p className="text-red-600 line-through text-xs mb-0 font-medium italic">De R$ 99,90</p>
               <div className="flex flex-col items-center mb-2">
                 <span className="text-sm font-bold text-profit">Por apenas</span>
-                <span className="text-4xl font-black text-profit tracking-tighter">R$ 10</span>
+                <span className="text-4xl font-black text-profit tracking-tighter">R$ 19,90</span>
               </div>
               <p className="text-[10px] text-wood/50 max-w-[200px] mx-auto leading-tight">
                 Valor simbólico para separar quem realmente quer aprender dos curiosos.
@@ -512,7 +512,7 @@ export default function App() {
                 <span className="text-red-600 line-through text-xl font-bold">De R$ 99,90</span>
                 <div className="flex items-baseline gap-1">
                   <span className="text-xl font-bold text-wood/60">Por</span>
-                  <span className="text-6xl md:text-8xl font-black text-profit tracking-tighter">R$ 10</span>
+                  <span className="text-6xl md:text-8xl font-black text-profit tracking-tighter">R$ 19,90</span>
                 </div>
               </div>
             </div>
